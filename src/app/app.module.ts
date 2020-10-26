@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 import MaterialModule from 'C:/Users/Pakhi Gupta/Documents/Angular workspace/UdemyProject/src/app/material.module';
 
@@ -13,7 +15,6 @@ import { TrainingComponent } from './training/training.component';
 import { CurrentTrainingComponent } from './training/current-training/current-training.component';
 import { NewTrainingComponent } from './training/new-training/new-training.component';
 import { PastTrainingComponent } from './training/past-training/past-training.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -33,7 +34,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

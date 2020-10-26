@@ -1,6 +1,11 @@
-.signup-form {
-    width: 300px;
+mat-form-field {
+    width: 300pxmat-form-field;
 }
+
+
+/* .signup-form {
+    width: 300px;
+} */
 
 
 
